@@ -1,0 +1,21 @@
+﻿Build started 28/11/2015 18:17:22.
+     1>Project "C:\Users\Adam\Development\OpenCV\NewLeaf\StickyProblem\StickyProblem.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:/opencv/build /IC:/opencv/build/include /IC:/opencv/build/include/opencv /IC:/opencv/modules/core/include /IC:/opencv/modules/imgproc/include /IC:/opencv/modules/flann/include /IC:/opencv/modules/highgui/include /IC:/opencv/modules/features2d/include /IC:/opencv/modules/calib3d/include /IC:/opencv/modules/ml/include /IC:/opencv/modules/video/include /IC:/opencv/modules/objdetect/include /IC:/opencv/modules/contrib/include /IC:/opencv/modules/nonfree/include /IC:/opencv/modules/photo/include /IC:/opencv/modules/legacy/include /IC:/opencv/modules/gpu/include /IC:/opencv/modules/stitching/include /IC:/opencv/modules/ts/include /IC:/opencv/modules/videostab/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\adam\development\opencv\newleaf\stickyproblem\main.cpp(78): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\adam\development\opencv\newleaf\stickyproblem\main.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\adam\development\opencv\newleaf\stickyproblem\main.cpp(234): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\adam\development\opencv\newleaf\stickyproblem\main.cpp(235): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\adam\development\opencv\newleaf\stickyproblem\main.cpp(237): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\adam\development\opencv\newleaf\stickyproblem\main.cpp(298): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Adam\Development\OpenCV\NewLeaf\Debug\NewLeaf.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc11\staticlib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_hal300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_ts300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib libtiffd.lib libpngd.lib libjpegd.lib libjasperd.lib IlmImfd.lib libwebpd.lib ippicvmt.lib zlibd.lib comctl32.lib vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Adam\Development\OpenCV\NewLeaf\Debug\NewLeaf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Adam\Development\OpenCV\NewLeaf\Debug\NewLeaf.lib" /MACHINE:X86 Debug\Images.obj
+         Debug\main.obj
+         Debug\Utilities.obj
+         StickyProblem.vcxproj -> C:\Users\Adam\Development\OpenCV\NewLeaf\Debug\NewLeaf.exe
+     1>Done Building Project "C:\Users\Adam\Development\OpenCV\NewLeaf\StickyProblem\StickyProblem.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.03
